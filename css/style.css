@@ -1,0 +1,204 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid #fff;
+}
+
+.header__top {
+  margin-bottom: 236px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.menu__list {
+  display: flex;
+  gap: 32px;
+}
+
+.menu__list-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+
+.menu__list-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.menu__list-link--active {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #c7495c;
+  color: #c7495c;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  margin-bottom: 235px;
+  text-align: center;
+}
+
+.header__title {
+  font-family: "Lora", serif;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+
+.header__btn {
+  border: 2px solid #fff;
+  padding: 16px 34px;
+  text-transform: uppercase;
+  max-width: 264px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in;
+}
+
+.header__btn:hover {
+  background-color: #fff;
+  color: #c7495c;
+}
+
+.catalog {
+  padding: 50px 0;
+}
+
+.popular {
+  background-color: #466a44;
+  border-bottom: 2px solid #fff;
+}
+
+.cheap {
+  background-color: #c7495c;
+  border-bottom: 2px solid #fff;
+}
+
+.catalog__title {
+  font-family: "Lora", serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.catalog__boxcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.catalog__card {
+  background-color: #fff;
+  padding: 19px;
+  border-radius: 20px;
+}
+
+.popular__card {
+  border: 2px solid #c7495c;
+}
+
+.cheap__card {
+  border: 2px solid #466a44;
+}
+
+.catalor__card-img {
+  margin-bottom: 10px;
+}
+
+.catalog__card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catalog__btn {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.popular__btn {
+  background-color: #c7495c;
+  transition: all 0.3s ease;
+}
+
+.cheap__btn {
+  background-color: #466a44;
+  transition: all 0.3s ease;
+}
+
+.popular__btn:hover {
+  background-color: #466a44;
+}
+
+.cheap__btn:hover {
+  background-color: #c7495c;
+  transition: all 0.3s ease;
+}
+
+.catalog__price {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.popular__price {
+  color: #c7495c;
+}
+
+.cheap__price {
+  color: #466a44;
+}
+
+.catalog__next {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: right;
+}
+
+.catalog__next-link {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 41px 0;
+  text-align: center;
+}
+
+.footer__text {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
